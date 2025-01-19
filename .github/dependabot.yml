@@ -6,6 +6,14 @@ updates:
       interval: "daily"
     groups:
       dependencies:
-        applies-to: version-updates
         patterns:
           - "*"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+
